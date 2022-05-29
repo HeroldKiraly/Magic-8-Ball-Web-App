@@ -7,14 +7,14 @@
 }
 
 html {
-    background-color: bisque;
-    font-family: 'Open Sans', sans-serif;
+    background-color: Black;
+    font-family: monospace;
     scroll-behavior: smooth;
     height: 100%;
 }
 
 body {
-    color: rgba(0,0,0);
+    color: white;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
