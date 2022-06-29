@@ -16,7 +16,8 @@ function answerOnButtonPress() {
     
     if (gameInput.value == false) {
         gameOutput.innerHTML = 'Please write something as an input';
-    } else if (userCurrentInput == gameInput.value) {
+        userCurrentInput = gameInput.value;
+    } else if (userCurrentInput === gameInput.value) {
         gameOutput.innerHTML = 'Please ask something else';
     } else if(gameInput.value != false && userCurrentInput == null) {
         gameOutput.innerHTML = getGameOutput;
