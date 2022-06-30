@@ -7,14 +7,14 @@
 }
 
 html {
-    background-color: Black;
+    background-color: white;
     font-family: monospace;
     scroll-behavior: smooth;
     height: 100%;
 }
 
 body {
-    color: white;
+    color: black;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -42,10 +42,13 @@ body {
     margin: 2rem;
 }
 
+/* 8 BALL VISUALS */
+
+/* 8 BALL ANIMATIONS */
 
 /*FOOTER*/
 footer {
-    color:rgba(0, 0, 0, 0.699);
+    color: hsla(100, 0, 0, 0);
     opacity: 0.25;
     font-size: 18px;
     text-align: center;
