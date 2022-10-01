@@ -7,7 +7,7 @@
 }
 
 html {
-    background-color: white;
+    background-color: darkgrey;
     font-family: monospace;
     scroll-behavior: smooth;
     height: 100%;
@@ -27,12 +27,12 @@ body {
     max-width: 900px;
 }
 
-
 /*MAGIC 8 BALL GAME CLASSES*/
 .tutorial-description {
     font-size: 24px;
     margin: 2rem;
 }
+
 .game-container {
     font-size: 24px;
     display: flex;
@@ -42,10 +42,6 @@ body {
     margin: 2rem;
 }
 
-/* 8 BALL VISUALS */
-
-/* 8 BALL ANIMATIONS */
-
 /*FOOTER*/
 footer {
     color: hsla(100, 0, 0, 0);
@@ -54,5 +50,3 @@ footer {
     text-align: center;
     margin-top: auto;
 }
-
-
